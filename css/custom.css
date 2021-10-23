@@ -681,4 +681,10 @@ p {
     .row .sw{
         display: none;
     }
+    .footer .copyright {
+    margin-bottom: 100px;
+
+
+}
+
 }

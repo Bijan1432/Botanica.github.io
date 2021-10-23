@@ -621,7 +621,12 @@ p {
     width: 355px !important;
     height: 228px !important;
 }
-
+.row .hd{
+    display: none;
+}
+.row .sw{
+    display: block;
+}
 @media (min-width:320px) and (max-width:767.98px) {
     .navbar-brand {
         margin-top: -10px;
@@ -661,5 +666,15 @@ p {
         text-transform: uppercase;
         margin-bottom: 30px;
         font-size: 14px
+    }
+
+    .section-feature .content .box1{
+        margin-top: 0;
+    }
+    .row .hd{
+        display: block;
+    }
+    .row .sw{
+        display: none;
     }
 }

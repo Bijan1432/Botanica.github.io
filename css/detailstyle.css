@@ -1136,7 +1136,7 @@ span.why_tx {
 
 .amenities_bg ul li p {
     font-size: 14px;
-    color: #333333;
+    color: rgb(3, 77, 41);
     line-height: 21px;
     font-weight: 500;
     margin-bottom: 0;
@@ -1242,8 +1242,8 @@ span.why_tx {
 
 .photo_Cl li.active a,
 .photo_Cl li:hover a {
-    color: #003399;
-    border-bottom: 3px solid #cc0000;
+    color: #006B38FF;
+    border-bottom: 3px solid #101820FF;
     transition: 0.5s all ease;
 }
 
@@ -1301,7 +1301,7 @@ span.why_tx {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: rgb(0, 70, 36);
     margin: -30px auto 0;
     position: relative;
     box-shadow: 0px 0px 5px rgb(0 0 0 / 24%);
@@ -1311,7 +1311,8 @@ span.why_tx {
 .gallery_tx p {
     text-transform: uppercase;
     margin: 0;
-    text-shadow: 0 0 0 #000;
+    color: #fff;
+    /* text-shadow: 0 0 0 rgb(255, 255, 255); */
     line-height: 20px;
     font-size: 12px;
 }

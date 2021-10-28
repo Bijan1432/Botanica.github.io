@@ -1026,7 +1026,7 @@
 
 @media (max-width: 480px) {
     .why_choose_Sl .owl-item:nth-child(odd) {
-        margin-top: 0;
+/*         margin-top: 0; */
     }
     .amenities_bg ul li {
         width: 50%;

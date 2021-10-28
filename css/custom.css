@@ -194,7 +194,7 @@ p {
     border-bottom: 1.5px solid #ada564
 }
 .owl-carousel .owl-item img{
-    width: 84% !important;
+    width: 84%;
 }
 
 .banner .content .content-heading h2 {
@@ -231,7 +231,7 @@ p {
     border-top-right-radius: 5px;
     letter-spacing: 0.5px;
     color: #fff;
-    z-index: 9;
+    z-index: 999;
     cursor: pointer;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -886,4 +886,16 @@ color: white;
 
 .hvr-shutter-out-vertical:before {
     background: #006B38FF;
+}
+
+
+.owl-prev span, .owl-next span{
+font-size: 40px !important;
+}
+.modal-content{
+    background-color: rgb(3, 77, 41);
+}
+.modal-body .form-group input{
+    background-color: rgb(3, 77, 41);
+    color: rgb(255, 255, 255);
 }
